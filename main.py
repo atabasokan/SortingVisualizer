@@ -16,8 +16,8 @@ class DrawInformation:
         (192, 192, 192)
     ]
 
-    FONT = pygame.font.SysFont('comicsans', 30)
-    LARGE_FONT = pygame.font.SysFont('comicsans', 40)
+    FONT = pygame.font.SysFont('comicsans', 15)
+    LARGE_FONT = pygame.font.SysFont('comicsans', 20)
 
     SIDE_PAD = 100
     TOP_PAD = 150
@@ -232,7 +232,7 @@ def main():
     sorting_algorithm_generator = None
 
     while run:
-        clock.tick(120)
+        clock.tick(25)
 
         if sorting:
             try:
